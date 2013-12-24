@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://doubanradio/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://doubanradio/locale/overlay.dtd">
+<overlay id="doubanradio-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+   	
+	
+	<script src="control.js"/>
+</overlay>

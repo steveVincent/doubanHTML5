@@ -1,63 +1,22 @@
 /* This is just an example.  You shouldn't do this. */
-.kit_style {
-	width: 16px;
-	height: 16px;
-	margin-left: 1px
+#doubanradio-hello
+{
+  color: red ! important;
 }
-
-.kitbox_style {
-	margin-top: 1px;
-	margin-bottom: 1px;
+#doubanradio-toolbar-button
+{
+  list-style-image: url("chrome://doubanradio/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
 }
-
-.kit_style:hover {
-	width: 16px;
-	height: 16px;
-	-moz-transform: rotate(15deg)
+#doubanradio-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
 }
-
-.radio_style {
-	width: 16px;
-	height: 16px;
-	margin-left: 3px
+[iconsize="small"] #doubanradio-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
 }
-
-.lyric_window {
-	-moz-border-radius-topright: 10px;
-	-moz-border-radius-bottomleft: 10px;
-	-moz-border-radius-bottomright: 10px;
-	-moz-border-radius-topleft: 10px;
-	border: 4px solid #006600;
-}
-
-.lyric_window2 {
-	background-color: yellow
-}
-
-.xibit {
-	text-shadow: 1px 2px 2px #292929;
-	font-weight: bold;
-}
-
-.lyricwindow_kit {
-	width: 16px;
-	height: 16px;
-	margin-right: 3px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-.lyricwindow_kit:hover {
-	-moz-transform: rotate(15deg)
-}
-
-.lyricwindow_body {
-	margin-left: 5px;
-}
-
-.lyric {
-	font-family: monospace;
-	height: 16px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+[iconsize="small"] #doubanradio-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
 }

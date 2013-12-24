@@ -1,4 +1,6 @@
+
 content   doubanradio                 chrome/content/
 skin      doubanradio   classic/1.0   chrome/skin/
-locale    doubanradio   zh-CN         chrome/locale/zh-CN/
-overlay   chrome://browser/content/browser.xul   chrome://doubanradio/content/doubanradio.xul
+locale    doubanradio   en-US         chrome/locale/en-US/
+
+overlay   chrome://browser/content/browser.xul   chrome://doubanradio/content/ff-overlay.xul
